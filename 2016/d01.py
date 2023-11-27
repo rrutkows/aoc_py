@@ -31,6 +31,6 @@ def solve(input, stop_when_twice):
 
 
 if __name__ == "__main__":
-    input = data.get_input()
+    input = data.get_input(2016, 1)
     runner.run(lambda: solve(input, False))
     runner.run(lambda: solve(input, True))
