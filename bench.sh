@@ -1,0 +1,1 @@
+python3 -m $1.d$(printf "%02d" $2) -b
