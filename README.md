@@ -6,6 +6,11 @@ Get the value of AOC session cookie from the browser and put it (**without newli
 
 Exceptions:
 * Y2016 D05: Paste your door ID in `2016.d05._get_hashes`.
+* Y2023 D20: Incomplete. Read your input. Put the name of rx's input into `2023.d20.solve02`.
+  Increase the iteration count, if necessary, until all rx's input's inputs are printed.
+  Put the values of first occurrences of each input
+  into [lcm](https://docs.python.org/3/library/math.html#math.lcm)
+  to get the answer.
 
 ### Run
 Either
