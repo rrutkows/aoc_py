@@ -11,6 +11,7 @@ Exceptions:
   Put the values of first occurrences of each input
   into [lcm](https://docs.python.org/3/library/math.html#math.lcm)
   to get the answer.
+* Y2023 D22: A [Graphviz](https://graphviz.org/) visualization will be created in `d22.gv`.
 
 ### Run
 Either
