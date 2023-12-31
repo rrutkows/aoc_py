@@ -12,6 +12,10 @@ Exceptions:
   into [lcm](https://docs.python.org/3/library/math.html#math.lcm)
   to get the answer.
 * Y2023 D22: A [Graphviz](https://graphviz.org/) visualization will be created in `d22.gv`.
+* Y2023 D25: Incomplete. A Graphviz visualization will be created in `d25.gv`.
+  The connections to cut will be clearly visible.
+  Export the graph to SVG and use browser's dev console to highlight the connections
+  and see connected components. Hardcode components' names to get the result.
 
 ### Run
 Either
