@@ -71,7 +71,7 @@ def solve(input):
             for x, y in _enum_xy(brick):
                 stack[z + brick_z - 1][(x, y)] = i
 
-    with open("d22.gv", mode='w') as f:
+    with open("2023/d22.dot", mode='w') as f:
         print("digraph G {", file = f)
         for i, v in enumerate(supported_by):
             for j in v:

@@ -2,7 +2,7 @@ from pathlib import Path
 from urllib.request import Request, urlopen
 
 def _get_input_file_path(y, d):
-    path = Path("input", f"{y}", f"{d}")
+    path = Path(f"{y}", f"d{d:02}.txt")
     if path.is_file():
         return path
 
@@ -15,7 +15,7 @@ def _get_input_file_path(y, d):
         raise RuntimeError("Put your AOC session cookie value in the file called session")
 
     with open("session") as f:
-        session = f.read()
+        session = f.read().splitlines()[0]
 
     request = Request(
         f"https://adventofcode.com/{y}/day/{d}/input",

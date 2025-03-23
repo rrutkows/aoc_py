@@ -27,7 +27,7 @@ def solve(input):
             nodes[r].add(left)
             parts.add(r)
 
-    with open("d25.gv", mode='w') as f:
+    with open("2023/d25.dot", mode='w') as f:
         print("graph G {", file = f)
         seen = set()
         for i, v in nodes.items():

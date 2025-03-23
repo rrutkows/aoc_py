@@ -1,5 +1,5 @@
 __pycache__/
 /session
-/input/
-d22.gv
-d25.gv
+*.txt
+*.dot
+*.svg
