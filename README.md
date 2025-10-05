@@ -6,6 +6,14 @@ Get the value of AOC session cookie from the browser and put it in a file `sessi
 
 Exceptions:
 * Y2016 D05: Paste your door ID in `2016.d05._get_hashes`.
+* Y2016 D23: The fragment
+  ```python
+                    if i == 9:
+                        reg['a'] = reg['a'] + reg['b'] * reg['d']
+                        reg['c'] = 0
+                        reg['d'] = 0
+  ```
+  is hardcoded based on my input and may not work for yours.
 * Y2023 D20: Incomplete. Read your input. Put the name of rx's input into `2023.d20.solve02`.
   Increase the iteration count, if necessary, until all rx's input's inputs are printed.
   Put the values of first occurrences of each input
