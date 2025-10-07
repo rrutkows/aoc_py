@@ -14,6 +14,12 @@ Exceptions:
                         reg['d'] = 0
   ```
   is hardcoded based on my input and may not work for yours.
+* Y2016 D25: The fragment
+  ```python
+    instr = input.splitlines()[8:]
+    return next(iter(a for a in count() if _try(instr, a, a + 7 * 362)))
+  ```
+  is hardcoded based on my input and may not work for yours.
 * Y2023 D20: Incomplete. Read your input. Put the name of rx's input into `2023.d20.solve02`.
   Increase the iteration count, if necessary, until all rx's input's inputs are printed.
   Put the values of first occurrences of each input
